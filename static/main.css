@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+/* Titre */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size:max(2.25vw,30px);
+}
+
+
+
+/* Mot */
+
+h3{
+    text-align: center;
+    font-size:max(1.5vw,24px);
+
+}
+
+/* Définition */
+.def{
+    background-color: #e1dfe9;
+    margin: 2% 4% 1% 4%;
+    padding: 1%;
+}
+
+article {
+    margin: auto;
+    border: solid 2px #333;
+    width: 45%;
+    height: 500px;
+    background-color: #fff;
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Button */
+form{
+    text-align: center;
+}
+
+button {
+    margin-top: 2%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

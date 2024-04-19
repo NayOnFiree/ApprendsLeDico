@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>ApprendsTonDico</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h1>ApprendsTonDico</h1>
+
+    <h3><strong>{{ mot_a_trouver }}</strong></h3>
+
+    <article>
+        <ul>
+            {% for definition in resultat %}
+                <div class="def">
+                    <li>{{ definition }}</li>
+                </div>
+            {% endfor %}
+        </ul>
+    </article>
+    <form action="" method="GET">
+        <button type="submit">Nouveau mot</button>
+    </form>
+</body>
+</html>
